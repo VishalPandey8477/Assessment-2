@@ -1,0 +1,116 @@
+@media (min-width:320px) and (max-width:765px) {
+    .companyLogo {
+        width: 70%;
+    }
+
+    .leftBottomYellowPart,
+    .rightBottomYellowPart,
+    .hiddenOnMobile {
+        display: none;
+    }
+
+    .hiddenOnWeb {
+        display: block;
+    }
+
+    .blackDogImage {
+        display: none;
+    }
+
+    .firstIwantedHeading {
+        font-size: 2.2rem;
+        line-height: 1.5rem;
+    }
+
+    .firstIwantedText {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .firstLoverOfAnimalHeading {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .firstLoverOfAnimalText {
+        font-size: 1rem;
+        line-height: 0px;
+    }
+
+    .titleHereHeading,
+    .dogTitleHereHeading,
+    .theVetCareTeamHeading {
+        font-size: 2.4rem;
+    }
+
+    .titleHereText,
+    .dogTitleHereText,
+    .theVetCareTeamText {
+        font-size: 1.1rem;
+        line-height: 0px;
+    }
+
+    .cardHeading,
+    .vetCareTeamCardHeading {
+        font-size: 1.8rem;
+    }
+
+    .cardText,
+    .vetCareTeamCardText {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .buyDogCardFirst {
+        position: relative;
+    }
+
+    .buyDoggyFirst {
+        position: absolute;
+        bottom: 10%;
+        left: 30%;
+    }
+
+    .buyDogCardSecond {
+        position: relative;
+    }
+
+    .buyDoggySecond {
+        position: absolute;
+        bottom: 5%;
+        left: 30%;
+    }
+
+    .buyDogCardThird {
+        position: relative;
+    }
+
+    .buyDoggyThird {
+        position: absolute;
+        top: 5%;
+        left: 30%;
+    }
+
+    .recentPostsContainer {
+        background-color: #fec400;
+        padding-bottom: 15%;
+    }
+
+    .footerMenuHeading {
+        color: #fec400;
+    }
+
+    .firstIwantedContainer {
+        padding-bottom: 15%;
+    }
+
+    .titleHereContainer,
+    .dogTitleHereContainer {
+        padding: 12% 0%;
+    }
+
+
+
+
+
+}

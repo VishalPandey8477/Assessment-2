@@ -1,0 +1,135 @@
+@media (min-width: 767px) and (max-width:992px) {
+
+    .leftBottomYellowPart,
+    .rightBottomYellowPart {
+        display: none;
+    }
+
+    .firstIwantedHeading {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .firstIwantedText {
+        font-size: 1rem;
+        line-height: 1px;
+    }
+
+    .firstIwantedContactButton,
+    .firstIwantedServiceButton,
+    .firstLoverOfAnimalServiceButton {
+        font-size: 0.6rem;
+    }
+
+    /* -----------------------------------------------------------------Second Part (Lovers of the Animals) ---------------------------------------*/
+
+    /* ------------------------------------------------------Animal lOver heading --------------------------------- */
+    .firstLoverOfAnimalHeading {
+        font-size: 1.5rem;
+        line-height: 0px;
+    }
+
+
+    /* ----------------------------------------------------------Text below Heading------------------------------------ */
+    .firstLoverOfAnimalText {
+        font-size: 0.9rem;
+        line-height: 0px;
+    }
+
+    /* -----------------------------------------------------------------------Third Part ( first Title here)------------------------------------ */
+
+    /* ---------------------------------------------Heading of the title part---------------------------- */
+    .titleHereHeading,
+    .dogTitleHereHeading,
+    .theVetCareTeamHeading {
+        font-size: 2.2rem;
+    }
+
+    /* -----------------------------------------------------Below text of that heading part---------------------------------------- */
+    .titleHereText,
+    .dogTitleHereText,
+    .theVetCareTeamText {
+        font-size: 1rem;
+        line-height: 0px;
+    }
+
+    /* -----------------------------------------------------Card part --------------------------------------------------------- */
+    .cardHeading,
+    .vetCareTeamCardHeading {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .cardText,
+    .vetCareTeamCardText {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.6rem;
+        text-align: center;
+    }
+
+    /* -----------------------------------------------------------------Fifth part ( DOg title here ) ------------------------------------------*/
+
+    /* -------------------------------------------Button----------------------------- */
+    .dogTitleHereBuyButton {
+        font-size: 0.7rem;
+    }
+
+    /* ---------------------------------------------------------------------Seventh part--------------------------------------------- */
+
+    .detailsCount {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .detailsText {
+        font-size: 1rem;
+        letter-spacing: 0.062rem;
+        font-weight: 700;
+    }
+
+    .detailsContentRow {
+        padding-bottom: 7%;
+    }
+
+    /* ----------------------------------------------------------------------------eight part (Recent posts )----------------------------------- */
+
+    /* =--------------------------Heading of the part------------------------- */
+    .recentPostsCardHeading {
+        font-size: 0.8rem;
+        line-height: 1px;
+
+    }
+
+    .recentPostsCardDate {
+        font-size: 0.5rem;
+        color: #01c0ca;
+    }
+
+
+    /* -------------------------------------------text of the cards of this part--------------------------------------- */
+    .recentPostsCardText {
+        font-size: 0.5rem;
+        line-height: 1px;
+    }
+
+    .recentPostsCardReadMore {
+        font-size: 0.6rem;
+    }
+
+    /* --------------------------------------------------------------Footer part---------------------------------------------------- */
+
+    /* --------------------------------------------Heading ------------------------------*/
+    .footerMenuHeading {
+        font-size: 1.3rem;
+    }
+
+    /* ------------------------------------------------Menu Items----------------------------- */
+    .footerMenuContents {
+        font-size: 0.7rem;
+        line-height: 0px;
+    }
+
+
+}

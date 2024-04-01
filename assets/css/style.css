@@ -1,0 +1,363 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    /* -------- All the fonts are Poppins-----------*/
+    font-family: "Poppins";
+    /* border: 1px solid red; */
+
+}
+
+.hiddenOnWeb {
+    display: none;
+}
+
+/* --------------------------------------------------------------------------------NavBar--------------------------------------------------------- */
+.navBarContainer {
+    background-color: #eaae00;
+}
+
+.nav-link {
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0% 40%;
+
+}
+
+.nav-link:hover {
+    background-color: #2c2d3e;
+
+}
+
+.toggleButton {
+    background-color: #01c0ca;
+}
+
+.navBarContainer {
+    background-color: #eaae00;
+}
+
+.searchButton {
+    border: 1px solid #01c0ca;
+}
+
+.searchButton:hover {
+    cursor: pointer;
+}
+
+
+/* -----------------------------------Same font color code #2c2d3e------------------------- */
+.firstLoverOfAnimalHeading,
+.firstLoverOfAnimalText {
+    color: #2c2d3e;
+}
+
+/* -----------------------------------Same color : #fec400-----------------------------*/
+.firstIwantedContainer,
+.firstLoverOfAnimalServiceButton,
+.titleHereContainer,
+.dogTitleHereContainer {
+    background-color: #fec400;
+}
+
+/* ---------------------------------Same Padding: top and bottom-------------------- */
+.firstIwantedContainer,
+.titleHereContainer,
+.dogTitleHereContainer {
+    padding: 6% 0%;
+}
+
+/* ----------------------------------------Same padding: top and bottom -------------------------- */
+.recentPostsContainer,
+.firstLoverOfAnimalContainer,
+.loverOfAnimalSecondContainer,
+.theVetCareTeamContainer {
+    padding: 10% 0%;
+}
+
+/* ---------------------------------------------------------------------First Part (First I wanted to...) ---------------------------------*/
+
+
+
+/* ----------------------------------------------First Part left sitde written part -------------------------- */
+.firstIwantedWrittenPart {
+    padding-top: 8%;
+}
+
+/* -----------------------------------------------Heading of the first part ( First i wanted to.... )---------------------------- */
+.firstIwantedHeading {
+    font-size: 3.64rem;
+    letter-spacing: 0.1rem;
+    line-height: 4rem;
+    font-weight: 600;
+}
+
+/* --------------------------------------------------Lorem text of the heading in the first part ------------------------------------- */
+.firstIwantedText {
+    font-size: 1.68rem;
+    letter-spacing: 0px;
+    font-weight: 380;
+    line-height: 2.3rem;
+}
+
+/* ----------------------------------------------------Same feature buttons---------------------------------------------------- */
+.firstIwantedContactButton,
+.firstIwantedServiceButton,
+.firstLoverOfAnimalServiceButton {
+    font-size: 1.2rem;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------------------Giving border and bg bolor to the contact button--------------------------------  */
+.firstIwantedContactButton {
+    border: 1px solid #01c0ca;
+    background-color: #01c0ca;
+}
+
+
+
+
+/* -----------------------------------------------------------------Second Part (Lovers of the Animals) ---------------------------------------*/
+
+
+
+/* ------------------------------------------------------Animal lOver heading --------------------------------- */
+.firstLoverOfAnimalHeading {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+}
+
+
+/* ----------------------------------------------------------Text below Heading------------------------------------ */
+.firstLoverOfAnimalText {
+    font-size: 1.64rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+
+/* -----------------------------------------------------------------Thumbnail of the video on the right side ------------------- */
+.firstThumbnailMainDiv {
+    padding-bottom: 3%;
+    position: relative;
+}
+
+.leftBottomYellowPart,
+.rightBottomYellowPart {
+    width: 45%;
+    height: 40%;
+    background-color: #fec400;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.leftBottomYellowPart {
+    left: 1.04rem;
+}
+
+.rightBottomYellowPart {
+    right: 1.04rem;
+}
+
+
+/* -----------------------------------------------------------------------Third Part ( first Title here)------------------------------------ */
+
+/* ---------------------------------------------Heading of the title part---------------------------- */
+.titleHereHeading,
+.dogTitleHereHeading {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* -----------------------------------------------------Below text of that heading part---------------------------------------- */
+.titleHereText,
+.dogTitleHereText {
+    font-size: 1.84rem;
+    line-height: 2.24rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* -----------------------------------------------------Card part --------------------------------------------------------- */
+.cardHeading {
+    font-size: 1.856rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cardText {
+    font-size: 1.36rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+.cardsRow,
+.vetCareTeamCardsRow {
+    margin-top: 10%;
+}
+
+.cardImages {
+    width: 92%;
+}
+
+
+/* -----------------------------------------------------------------Fifth part ( DOg title here ) ------------------------------------------*/
+
+/* -------------------------------------------Button----------------------------- */
+.dogTitleHereBuyButton {
+    background-color: #01c0ca;
+    border-radius: 1.875rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------Sixth Part ( vetcare team )--------------------------------------------- */
+
+/* --------------------------------------------Heading same------------------------- */
+.theVetCareTeamHeading,
+.theVetCareTeamText,
+.vetCareTeamCardHeading,
+.vetCareTeamCardText {
+    color: #2d2e41;
+}
+
+/* ----------------------------------------------Heading-------------------------------- */
+.theVetCareTeamHeading {
+    font-size: 4.32rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* -------------------------------------------Below text--------------------------------- */
+.theVetCareTeamText {
+    font-size: 1.92rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.vetCareTeamCardHeading {
+    font-size: 1.813rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.vetCareTeamCardText {
+    font-size: 1.562rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+/* ---------------------------------------------------------------------Seventh part--------------------------------------------- */
+
+/* ----------------------------------------------------Giving Yellow Feature------------------------------------ */
+.divBackgroundYellow {
+    opacity: 0.87;
+    width: 100%;
+    background-color: #fec601;
+}
+
+.detailsIcons {
+    width: 38%;
+}
+
+.detailsIcons2 {
+    width: 30%;
+}
+
+/*------------------------------------------------Details part  */
+.detailsContentRow {
+    margin-top: 14%;
+    padding-bottom: 9%;
+}
+
+.detailsCount {
+    font-size: 2.625rem;
+    font-weight: 500;
+}
+
+.detailsText {
+    font-size: 1.875rem;
+    letter-spacing: 0.062rem;
+    font-weight: 700;
+}
+
+
+/* ----------------------------------------------------------------------------eight part (Recent posts )----------------------------------- */
+
+/* =--------------------------Heading of the part------------------------- */
+.recentPostsCardHeading {
+    font-size: 1.562rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+}
+
+.recentPostsCardDate {
+    font-size: 1.062rem;
+    color: #01c0ca;
+}
+
+
+/* -------------------------------------------text of the cards of this part--------------------------------------- */
+.recentPostsCardText {
+    font-size: 1rem;
+}
+
+.recentPostsCardReadMore {
+    font-size: 1.313rem;
+    color: #01c0ca;
+    font-weight: 500;
+}
+
+/* --------------------------------------------------Lower part divided to give the border------------------------------- */
+
+.recentPostsCardLowerPart {
+    border: 2px solid #d6d6d6;
+    border-style: none solid solid solid;
+}
+
+
+
+/* --------------------------------------------------------------Footer part---------------------------------------------------- */
+
+/* -----------------------------------Footer Container----------------------------------- */
+.footerContainer {
+    padding: 15% 0%;
+    background-color: #313131;
+}
+
+/* --------------------------------------------Heading ------------------------------*/
+.footerMenuHeading {
+    font-size: 2.375rem;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------Menu Items----------------------------- */
+.footerMenuContents {
+    font-size: 1.562rem;
+    line-height: 2.75rem;
+}
+
+/* -------------------------------Right side yellow div ---------------------------- */
+.footerYelloPart {
+    padding-bottom: 15%;
+    background-color: #eaae00;
+}
+
+/* ---------------------------------Div of that plane logo------------------------------------ */
+.footerPaperPlaneDiv {
+    background-color: #01c0ca;
+}
+
+.footerPaperPlane {
+    width: 30%;
+}
